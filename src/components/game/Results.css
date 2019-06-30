@@ -1,0 +1,51 @@
+h1 {
+  padding-bottom: 20px;
+}
+
+div#score {
+  min-height: 500px;
+}
+
+div.results{
+  max-width: 600px;
+  margin: 0 auto;
+  top: 20px;
+  padding: 40px;
+  margin-top: 80px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  opacity: 0.9;
+  box-shadow: 0px 12px 10px #b4feff;
+}
+
+.circle-button {
+  background: #9c3bfd !important;
+  font-size: 24px !important;
+  width: 160px;
+  height: 160px;
+  line-height: 160px;
+  border-radius: 50% !important;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.29);
+  transition: .4s;
+  animation-name: radial-pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; 
+}
+
+.circle-button:hover {
+  background: #8c18ff !important;
+}
+
+@keyframes radial-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.3);
+  }
+
+  100% {
+    box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+  }
+}

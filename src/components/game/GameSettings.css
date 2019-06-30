@@ -1,0 +1,24 @@
+div.game-settings {
+  padding: 10px;
+  height: 100%;
+}
+
+button.btn.game {
+  margin: 1rem;
+  font-size: 26px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+div.welcome {
+  padding-bottom: 150px;
+}
+
+p.welcome {
+  font-size: 56px;
+  margin-top: 120px;
+}
+
+div.selectAmount {
+  padding-bottom: 80px;
+}

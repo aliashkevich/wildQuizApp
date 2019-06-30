@@ -1,0 +1,82 @@
+div.about-page {
+  background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  height: auto;
+  min-height: 100%;
+}
+
+div#profile {
+  max-width: 100%;
+}
+
+div.row#profiles {
+  padding: 80px 30px 20px 30px;
+}
+
+#profile .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 30px 10px 10px 10px;
+  height: 95%;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 9px 14px 3px rgba(0,0,0,0.56); 
+  box-shadow: 0px 9px 14px 3px rgba(0,0,0,0.56);  
+}
+
+div.card-body {
+  padding-top: 0;
+}
+
+#profile img {
+  width: 50%;
+}  
+
+p.description.card-text {
+  text-align: justify;
+}
+
+div.social {
+  font-size: 2em;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+div.social a {
+  padding: 20px;
+}
+
+div.card-content {    
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+
+#profile .card-deck .fa-github {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#profile .card-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 10px;
+  padding: 0;
+}
+
+#profile .card-subtitle {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}

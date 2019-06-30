@@ -1,0 +1,64 @@
+.logo {
+  width: 56px;
+  height: 46px;
+}
+
+.navbar-brand span {
+  vertical-align: middle;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  padding-right: 12px;
+}
+
+nav {
+  top: 0;
+  position: fixed;
+  z-index: 100;
+}
+
+nav.navbar {
+  padding-top: 0px;
+  padding-bottom: 2px;
+  background-color: #fd3b9c;
+  font-size: 28px;
+  font-family: 'Quicksand', 'Jura', sans-serif;
+  font-size: 28px;
+}
+
+.navbar a {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.navbar a.active {
+  color: #fdfd3b;
+  font-weight: bold;
+  font-family: 'Quicksand', 'Jura', sans-serif;
+  text-shadow: 1px 1px #e462a3;
+}
+
+.navbar a:hover {
+  color: #fdfd3b;
+  text-decoration: none;
+}
+  
+/* remove the blue outline when active or focused */
+.navbar-toggler:active, .navbar-toggler:focus {
+  outline: 0;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: transparent !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.ml-auto.navbar-nav{
+  text-align: right;
+}

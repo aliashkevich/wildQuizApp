@@ -1,0 +1,62 @@
+div.box-container {
+  background-color: #3cc3b2;
+  margin-bottom: 50px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+button.answer-btn {
+  border: 0px !important;
+  height: 100%;
+  outline: none;
+  margin: 0;
+  padding: 10px;
+}
+
+div.answer {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+}
+
+div.progress {
+  border-radius: 0px;
+}
+
+h1.num {
+  display: inline;
+}
+
+.card.card-footer, .card.card-header {
+  background-color: #3cc3b2 !important;
+  border: 0;
+}
+
+button.next {
+  background-color: #fdcc3b !important;
+  border: 0px;
+}
+
+div.correct {
+  background-color: #fdcc3b !important;
+}
+
+div.incorrect {
+  background-color: #6a737b !important;
+}
+
+/* 
+@media screen and (min-width: 601px) {
+  .alert-heading {
+    font-size: 80px;
+  }
+} */
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 500px) {  
+  .num, ._question {
+    font-size: 5VW !important;
+  }
+  ._difficulty, ._category, .answer-btn {
+    font-size: 3VW !important;
+  }
+}

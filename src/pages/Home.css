@@ -1,0 +1,12 @@
+div#home {
+  max-width: 100%;
+  height: auto;
+  min-height: 100%;
+  padding-top: 58px;
+  margin: 0 auto -50px;
+  background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  font-family: 'Quicksand', 'Jura', sans-serif;
+}

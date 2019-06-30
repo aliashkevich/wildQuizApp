@@ -1,0 +1,174 @@
+
+ *{
+  box-sizing: border-box
+}
+
+.ViewSlide {
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto -50px;
+  flex: 2 0 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: all ease 0.5s;
+  position: absolute;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%); 
+  font-family: 'Quicksand', 'Jura', sans-serif;
+  color: black;  
+  border: 1px solid transparent;
+}
+
+.ViewSlider{
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  margin: 0 auto -50px; */
+}
+  
+
+.ppt_container {
+text-align: center;
+margin: 0 auto;
+}
+
+.wrapper{
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+
+.img_wrapper {
+padding: 5px;
+margin: 0 auto;
+text-align: center;
+}
+
+.img_wrapper > img {
+height: 5vh;
+margin: 8px;
+}
+
+._smBtn {
+height: 50px;
+width: 50px;
+}
+
+.tech_logos {
+text-align: center;
+padding: 10px;
+}
+
+
+.my-modal-sm {
+width: 60vw !important;
+max-width: 80vw !important;
+} 
+
+.my-modal-lg {
+width: 80vw !important;
+max-width: 80vw !important;
+} 
+
+.modal_wrapper {
+  width: 80vw !important;
+  max-width: 80vw !important;
+}
+
+
+.wf_img {
+  width: 100%;
+  object-fit: fill;
+}
+
+._wireframeBig {
+  width: 80vw;
+  height: 80vh;
+}
+
+._tech {
+  display: block;
+  padding: 0px;
+  margin: 0 auto;
+  font-family: 'Quicksand', 'Jura', sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 475px) {
+.my-modal-sm {
+  padding-left: 100px;
+  width: 70vw !important;
+  max-width: 70vw !important;
+}
+
+.my-modal-lg {
+  padding-left: 30px;
+}
+
+.wf_img {
+  height: auto;
+  width: 70vw !important;
+}
+
+._wireframeBig {
+  width: 90vw;
+  height: 60vh;
+}
+
+code p {
+  font-size: 4vw;
+}
+
+}
+
+
+/* .code_editor */
+
+  .ppt_container_code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.code_editor {
+  max-width: 50rem;
+  background: #263238;
+  color: #eff;
+  padding: 1rem 3rem;
+  margin: 1rem;
+  position: relative;
+  border-radius: 0.25rem;
+  counter-reset: step;
+  counter-increment: step 0;
+  transition: background 0.3s;
+  outline: none;
+}
+code:focus {
+  background: #2e3d44;
+  outline: none;
+}
+code p {
+  position: relative;
+  margin: 0.2rem;
+  font-family: monospace;
+  display: block;
+  white-space: pre;
+  outline: none;
+  text-align: start;
+}
+code p::before {
+  position: absolute;
+  top: 0;
+  left: -1.75rem;
+  color: #50646d;
+  user-select: none;
+  content: counter(step);
+  counter-increment: step;
+  outline: none;
+}
